@@ -39,10 +39,10 @@ var ajaxCall = (key, url, prompt) => {
         </div>
       `;
     class MainWebComponent extends HTMLElement {
-      async post(apiKey, endpoint, prompt) {
+      async post(APIKey, endPoint, prompt) {
         const { response } = await ajaxCall(
-          apiKey,
-          `${url}/${endpoint}`,
+          APIKey,
+          `${url}/${endPoint}`,
           prompt
         );
         //console.log(response.choices[0].text);
