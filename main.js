@@ -13,8 +13,8 @@ fetch(url,{
       temperature: 0.5,
     })
   }).then((res)=> {
-    console.log(res.json());
-    return res.json();
+    console.log(res);
+    return res;
   }).catch((err)=>{
     console.log(err);
   })
