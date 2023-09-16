@@ -15,7 +15,7 @@ fetch(url,{
   }).then((res)=> {
     return res.json();
   }).catch((err)=>{
-    console.log(err);
+    console.log("Error in return");
   })
 };
 
