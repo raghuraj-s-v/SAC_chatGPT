@@ -6,7 +6,7 @@ fetch(url,{
       Authorization: `Bearer ${key}`
   },
   body:JSON.stringify({
-      model: "text-davinci-003",
+      model: "text-davinci-002",
       prompt: prompt,
       max_tokens: 1024,
       n: 1,
